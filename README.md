@@ -41,7 +41,7 @@ Also, please be aware that this library uses reflection, meaning any equality ev
 performance is of great concern in your application, this library might not be a good fit.  Otherwise, the performance hit will
 typically be negligable and acceptable in most use cases.
 
-
+This library is available on nuget: PM> Install-Package RT.Equality
 
 
 
