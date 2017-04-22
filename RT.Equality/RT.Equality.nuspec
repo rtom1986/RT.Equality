@@ -6,9 +6,9 @@
     <title>Equality Definition</title>
     <authors>Richard Tom</authors>
     <owners>Richard Tom</owners>
-    <licenseUrl>http://www.richardtomdeveloper.com</licenseUrl>
-    <projectUrl>http://www.richardtomdeveloper.com</projectUrl>
-    <iconUrl>http://www.richardtomdeveloper.com</iconUrl>
+    <licenseUrl>https://github.com/rtom1986/RT.Equality</licenseUrl>
+    <projectUrl>https://github.com/rtom1986/RT.Equality</projectUrl>
+    <iconUrl>https://github.com/rtom1986/RT.Equality</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>
       The EqualityDefinition class simplifies the process of changing the meaning of equality for a type.
