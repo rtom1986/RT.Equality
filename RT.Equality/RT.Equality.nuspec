@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RT.Equality</id>
+    <version>1.0.0.0</version>
+    <title>Equality Definition</title>
+    <authors>Richard Tom</authors>
+    <owners>Richard Tom</owners>
+    <licenseUrl>http://www.richardtomdeveloper.com</licenseUrl>
+    <projectUrl>http://www.richardtomdeveloper.com</projectUrl>
+    <iconUrl>http://www.richardtomdeveloper.com</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+      The EqualityDefinition class simplifies the process of changing the meaning of equality for a type.
+      When your own type derives from EqualityDefinition of T, you only need to add the EqualityMember attribute
+      to the fields and properties that should be evaluated when checking for equality. Everything else, including 
+      the object.Equals virtual method, object.Equals static method, object.GetHashCode method, IEquatable of T Equals 
+      method, and C# equality operators will be automatically implemented/overridden/overloaded to use your equality 
+      definition!  
+    </summary>
+    <description>
+      The EqualityDefinition class simplifies the process of changing the meaning of equality for a type. 
+    </description>
+    <releaseNotes>Initial Release Version 1.0.0.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Equality Equals HashCode Override</tags>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+  </files> 
+</package>
