@@ -72,12 +72,8 @@ namespace RT.Equality
             }
 
             //Check for String
-            if (obj is string)
-            {
-                return (string)obj;
-            }
-
-            return obj;
+            var stringVal = obj as string;
+            return stringVal ?? obj;
         }
     }
 }

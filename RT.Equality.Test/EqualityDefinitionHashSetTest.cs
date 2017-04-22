@@ -18,12 +18,7 @@ namespace RT.Equality.Test
         {
             var test1 = new object();
             var test2 = new object();
-            var hashSet = new HashSet<object>();
-
-            //Attempt to add duplicates to the HashSet
-            hashSet.Add(test1);
-            hashSet.Add(test1);
-            hashSet.Add(test2);
+            var hashSet = new HashSet<object> {test1, test1, test2};
 
             Assert.IsTrue(hashSet.Count == 2);
         }
@@ -36,12 +31,7 @@ namespace RT.Equality.Test
         {
             var test1 = new TestEntities.Test(1);
             var test2 = new TestEntities.Test(1);
-            var hashSet = new HashSet<TestEntities.Test>();
-
-            //Attempt to add duplicates to the HashSet
-            hashSet.Add(test1);
-            hashSet.Add(test1);
-            hashSet.Add(test2);
+            var hashSet = new HashSet<TestEntities.Test> {test1, test1, test2};
 
             Assert.IsTrue(hashSet.Count == 1);
         }
@@ -54,11 +44,7 @@ namespace RT.Equality.Test
         {
             var test1 = new TestEntities.Test(1);
             var test2 = new TestEntities.Test(2);
-            var hashSet = new HashSet<TestEntities.Test>();
-
-            //Attempt to add non-duplicates to the HashSet
-            hashSet.Add(test1);
-            hashSet.Add(test2);
+            var hashSet = new HashSet<TestEntities.Test> {test1, test2};
 
             Assert.IsTrue(hashSet.Count == 2);
         }
