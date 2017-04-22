@@ -6,9 +6,9 @@
     <title>Equality Definition</title>
     <authors>Richard Tom</authors>
     <owners>Richard Tom</owners>
-    <licenseUrl>https://github.com/rtom1986/RT.Equality/blob/master/License</licenseUrl>
+    <licenseUrl>https://github.com/rtom1986/RT.Equality/blob/master/License.txt</licenseUrl>
     <projectUrl>https://github.com/rtom1986/RT.Equality</projectUrl>
-    <iconUrl>https://www.nuget.org/packages/RT.Equality/1.0.0/ReportMyPackage</iconUrl>
+    <iconUrl>https://en.gravatar.com/userimage/120524668/42e8a8aa3fd29c649c1276651e9fd7a5?size=200</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>
       The EqualityDefinition class simplifies the process of changing the meaning of equality for a type.
